@@ -3,7 +3,7 @@
   "theme_color": "#333333",
   "name": "Pokemon API",
   "short_name": "TODO",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "/",
   "icons": [
     {
@@ -15,6 +15,15 @@
       "src": "logo-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pokemon",
+      "short_name": "Poke",
+      "description": "View Pokemon Information",
+      "url": "/",
+      "icons": [{ "src": "logo-192.png", "sizes": "192x192" }]
     }
   ]
 }
